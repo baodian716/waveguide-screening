@@ -12,6 +12,12 @@
 
 最後計算傳輸效率 = 偵測平面總能量 / 光源平面總能量，取 Top-10。
 
+## Pipeline
+
+![波導篩選管線：從 8,200 組候選到最優 Top 10](pipeline.png)
+
+完整流程文字說明見 [PIPELINE.md](PIPELINE.md)。
+
 ## Why demo data
 
 原始模擬資料來自專用光學 / 電磁模擬工具，未納入公開版本。本專案以 synthetic data 展示分析方法與篩選邏輯，**不重現論文結果**。
